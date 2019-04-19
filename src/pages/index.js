@@ -4,10 +4,10 @@ import { Container, Row } from 'reactstrap'
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import PhotoSlider from './indexComponents/PhotoSlider'
-import IntroParagraph from "./indexComponents/IntroParagraph";
-import BusinessResourceLink from "./indexComponents/BusinessResourceLink";
-import HeaderLogo from "./indexComponents/HeaderLogo";
+import PhotoSlider from '../components/landingPage/PhotoSlider'
+import IntroParagraph from "../components/landingPage/IntroParagraph";
+import BusinessResourceLink from "../components/landingPage/BusinessResourceLink";
+import HeaderLogo from "../components/landingPage/HeaderLogo";
 
 const IndexPage = () => (
   <Layout>
