@@ -19,8 +19,6 @@ export const Container = styled.div`
 `
 
 export const Logo = styled.div`
-  background: #F7CD47;
-  /* border-radius: 0 0 50px; */
   box-shadow: 1px 3px 3px rgba(255,255,255,0.2);
   height: ${NAV_HEIGHT};
   width: 350px;
