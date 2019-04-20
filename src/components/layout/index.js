@@ -1,6 +1,7 @@
 import React from "react"
 import { ThemeProvider } from "styled-components"
 import Header from "./header"
+import Footer from "./footer"
 import { Wrapper, theme } from "./style"
 import "./layout.css"
 
@@ -11,6 +12,7 @@ const Layout = ({ children, pageProps }) => (
 
         <Wrapper>{children}</Wrapper>
 
+        <Footer />
       </div>
   </ThemeProvider>
 )
