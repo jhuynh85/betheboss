@@ -1,69 +1,43 @@
-## 🚀 Quick start
+# Be The Boss Program
 
-1.  **Clone the Repo and install npm packages.**
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-    ```
-    git clone https://github.com/san-diego-tech-hub/betheboss.git
-    cd betheboss
-    npm i
-    ```
+This site was developed with [GatsbyJS](https://www.gatsbyjs.org/) and serves as the home page for [Be The Boss Program](https://bethebossprogram.org).
 
-1.  **Start developing.**
+## Contribute
 
-    Navigate into your new site’s directory and start it up.
+**Working on your first Pull Request?** You can learn how from this _free_ series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 
-    ```
-    gatsby develop
-    ```
+### Getting Started
 
-1.  **Open the source code and start editing!**
+1. Fork the project
+2. Clone your fork
+3. Make sure you are in the right directory: `cd betheboss`
+4. Add an `upstream` remote for keeping your local repository up-to-date:
+   > `git remote add upstream git@github.com/san-diego-tech-hub/betheboss.git
+5. Run `cp env.default .env.dev`
+6. Grab the environment variables from a developer in the slack channel.
+7. Run `npm install` to install the project dependencies.
+8. Run `npm start` to start your dev environment.
 
-    Your site is now running at `http://localhost:8000`!
+### Creating a new PR
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+1. Make sure you are on the `master` branch, and you have pulled the latest changes.
 
-    Open the `betheboss` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+   > `git checkout master && git pull upstream master`
 
-## 🧐 What's inside?
+2. Install any new dependencies: `npm install`
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+3. Create a new branch off of the `master` branch.
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+   > `git checkout -b [NEW BRANCH NAME]`
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+   > **Branch naming conventions:** `fix/[BRANCH]` for bug fixes, `feature/[BRANCH]` for new features, `dev/[BRANCH]` for non-user-facing changes. The `[BRANCH]` portion should be kebab case. For example, if you want to update the README.md file, your branch could be called `dev/update-readme`
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+4. Make changes and commit them. `git add . && git commit -m "[YOUR COMMIT MESSAGE]"`.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+   > The subject of a commit message (the first line) should be 72 characters or less. If you need more room for a longer explanation of your changes, you can add a blank line below the subject and write a commit body. The commit message should be in present-imperative tense ("Update README.md" rather than "Updates" or "Updated").
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+5. Push your branch to your fork: `git push -u origin [BRANCH NAME]`
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
-
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
-
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
-
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
-
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+6. Open a new PR against the `master` branch from your fork using the GitHub user interface.
