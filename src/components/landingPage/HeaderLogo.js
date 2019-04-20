@@ -1,25 +1,36 @@
 import React from 'react';
 import Business from '../../images/be-the-boss-business.jpg';
-import './HeaderImg.css';
+import styled from "styled-components";
 
 const HeaderLogo = () => {
   return (
-    <div className="JumbotronImg py-5">
-      <div className='row mt-5 pt-5'>
-        <div className="col-md-6 text-center">
-          <img className="idea" src={Business} alt='icon' width="80%" height="80%" />
-        </div>
-        <div className="col-md-6 my-5">
-          <div className="text-left mt-5 pl-5">
-            <h1 className="text-warning">BE THE BOSS</h1>
-            <h3 className="text-white">Passionpreneurship Program</h3>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Jumbotron className="JumbotronImg py-5">
+      <Intro>
+        <h1 className="text-warning">BE THE BOSS</h1>
+        <h3>Passionpreneurship Program</h3>
+      </Intro>
+    </Jumbotron>
   )
 }
 
+const Intro = styled.div`
+  padding: 0.2rem 2rem;
+  text-align: center;
 
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+`
+
+const Jumbotron = styled.header`
+  background-image: url(${Business});
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  height: 30rem;
+  text-shadow: 5px 5px 25px black;
+  width: 100vw;
+`
 
 export default HeaderLogo;
