@@ -1,5 +1,6 @@
 import React from "react"
 import { ThemeProvider } from "styled-components"
+import 'bootstrap/dist/css/bootstrap.css'
 import Header from "./header"
 import Footer from "./footer"
 import { Wrapper, theme } from "./style"
