@@ -6,11 +6,7 @@ import './HeaderImg.css';
 const HeaderLogo = () => {
   return (
     <div className="JumbotronImg py-5">
-      <Row>
-        <Col className="col-sm-12 py-3">
-          <img className="idea" src={Business} alt='icon' width="30%" height="80%" />
-        </Col>
-      </Row>
+      <img className="idea" src={Business} alt='icon' width="40%" height="90%" />
     </div>
   )
 }
