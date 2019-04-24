@@ -4,7 +4,7 @@ import { Container, Row } from 'reactstrap'
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import PhotoSlider from '../components/landingPage/PhotoSlider'
+import Sponsors from '../components/landingPage/Sponsors'
 import IntroParagraph from "../components/landingPage/IntroParagraph";
 import BusinessResourceLink from "../components/landingPage/BusinessResourceLink";
 import HeaderLogo from "../components/landingPage/HeaderLogo";
@@ -23,13 +23,12 @@ const IndexPage = () => (
       </Row>
       <Container>
         <Row className="my-3 p-3">
-          <div className="col-lg-12">
+          <div className="col-lg-6">
             <IntroParagraph />
           </div>
-        </Row>
-        <Row className="m-auto">
-          <div className="col-lg-12 p-5">
-            <PhotoSlider />
+        
+          <div className="col-lg-6 p-5">
+            <Sponsors />
           </div>
         </Row>
       </Container>
