@@ -7,13 +7,13 @@ import "./layout.css"
 
 const Layout = ({ children, pageProps }) => (
   <ThemeProvider theme={theme}>
-      <div style={{ maxWidth: "100vw", overflowX: "hidden" }}>
-        <Header />
+    <div style={{ maxWidth: "100vw", overflowX: "hidden" }}>
+      <Header />
 
-        <Wrapper>{children}</Wrapper>
-  
-        <Footer />
-      </div>
+      <Wrapper>{children}</Wrapper>
+
+      <Footer />
+    </div>
   </ThemeProvider>
 )
 
