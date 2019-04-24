@@ -1,6 +1,6 @@
 import React from 'react';
 import Business from '../../images/be-the-boss-business.jpg';
-import { Row, Col, Button } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import './HeaderImg.css';
 
 const HeaderLogo = () => {
