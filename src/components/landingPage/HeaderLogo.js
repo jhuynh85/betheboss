@@ -11,7 +11,6 @@ const HeaderLogo = () => {
           <img className="idea" src={Business} alt='icon' width="30%" height="80%" />
         </Col>
       </Row>
-
     </div>
   )
 }
