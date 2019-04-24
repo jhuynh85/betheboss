@@ -11,7 +11,7 @@ const Layout = ({ children, pageProps }) => (
         <Header />
 
         <Wrapper>{children}</Wrapper>
-
+  
         <Footer />
       </div>
   </ThemeProvider>
