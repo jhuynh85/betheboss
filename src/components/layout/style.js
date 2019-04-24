@@ -1,11 +1,11 @@
 import styled from "styled-components"
 
 export const theme = {
-  opacity: 0.0,
+  // opacity: 0.0,
   primaryMuted: "#4d3b84",
   primaryMutedLight: "#b094cc",
   primaryDark: "#422695",
-  // primary: "#F7CD47",
+  primary: "transparent",
   primaryLight: "#7945c2",
   primaryWhite: "#e7d7fe",
   secondary: "#f25aa3",

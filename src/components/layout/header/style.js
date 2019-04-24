@@ -39,7 +39,7 @@ export const Logo = styled.div`
 `
 
 export const Menu = styled.ul`
-  background-color: #FFFFF;
+  background-color: #F7CD47;
   align-items: center;
   flex: 4;
   display: flex;
