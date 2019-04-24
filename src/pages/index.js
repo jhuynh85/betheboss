@@ -23,11 +23,11 @@ const IndexPage = () => (
       </Row>
       <Container>
         <Row className="my-3 p-3">
-          <div className="col-lg-6 p-5">
+          <div className="col-lg-6">
             <IntroParagraph />
           </div>
 
-          <div className="col-lg-6 p-5">
+          <div className="col-lg-6">
             <Sponsors />
           </div>
         </Row>

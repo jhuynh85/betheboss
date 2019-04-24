@@ -14,10 +14,10 @@ const Header = () => (
     <Container className="pt-1">
       <Logo>
         <Link to="/">
-          <StyledImg alt="Be The Boss" src={btbLogo} />
+          <StyledImg className="ml-5" alt="Be The Boss" src={btbLogo} />
         </Link>
       </Logo>
-      <h1 className="text-primary mr-5 pt-2">Welcome!</h1>
+      <h1 className="text-white mr-5 pt-2">Welcome!</h1>
     </Container>
   </Nav>
 )
