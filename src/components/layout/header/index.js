@@ -11,12 +11,13 @@ import btbLogo from "../../../images/bethebossicon.jpg"
 
 const Header = () => (
   <Nav>
-    <Container>
+    <Container className="pt-1">
       <Logo>
         <Link to="/">
           <StyledImg alt="Be The Boss" src={btbLogo} />
         </Link>
       </Logo>
+      <h1 className="text-primary mr-5 pt-2">Welcome!</h1>
     </Container>
   </Nav>
 )
