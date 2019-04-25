@@ -8,6 +8,7 @@ const CodeOfConduct = () => (
   <Container>
     <div className="card p-3">
       <h1>Contributor Covenant Code of Conduct</h1>
+      <hr />
       <br />
       <h2>Our Pledge</h2>
 
