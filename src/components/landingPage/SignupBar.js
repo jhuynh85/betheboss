@@ -1,13 +1,9 @@
 import React, { Component } from 'react'
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import styled from 'styled-components'
-<<<<<<< HEAD:src/components/landingPage/BusinessResourceLink.js
 import SubscriptionForm from './SubscriptionForm';
-class BusinessResourceLink extends Component {
-=======
 
 class SignUpBar extends Component {
->>>>>>> refactor card header:src/components/landingPage/SignupBar.js
   constructor(props) {
     super(props);
     this.state = {
@@ -54,11 +50,7 @@ class SignUpBar extends Component {
           <ModalHeader toggle={this.toggle}>Sign Up!</ModalHeader>
           <ModalBody>
 
-<<<<<<< HEAD:src/components/landingPage/BusinessResourceLink.js
             <SubscriptionForm />
-=======
-            <p>Form Goes Here</p>
->>>>>>> refactor card header:src/components/landingPage/SignupBar.js
 
           </ModalBody>
           <ModalFooter>

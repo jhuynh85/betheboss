@@ -91,12 +91,12 @@ const CodeOfConduct = () => (
       <h2>Attribution</h2>
 
       <p>This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-    available at: <br /> <span><a href="https://www.contributor-covenant.org/version/1/4/code-of-conduct.html" target="_blank">www.contributor-covenant.org/version/1/4/code-of-conduct.html</a></span></p>
+    available at: <br /> <span><a href="https://www.contributor-covenant.org/version/1/4/code-of-conduct.html" rel="noopener noreferrer" target="_blank">www.contributor-covenant.org/version/1/4/code-of-conduct.html</a></span></p>
 
-      <p>[homepage]: <br /><span><a href="https://www.contributor-covenant.org" target="_blank">www.contributor-covenant.org</a></span></p>
+      <p><a href="https://www.contributor-covenant.org" rel="noopener noreferrer" target="_blank">www.contributor-covenant.org</a></p>
 
       <p>For answers to common questions about this code of conduct, see:<br />
-        <span><a href="https://www.contributor-covenant.org/faq" target="_blank">www.contributor-covenant.org/faq</a></span></p>
+        <a href="https://www.contributor-covenant.org/faq" rel="noopener noreferrer" target="_blank">www.contributor-covenant.org/faq</a></p>
     </div>
   </Container>
 )
