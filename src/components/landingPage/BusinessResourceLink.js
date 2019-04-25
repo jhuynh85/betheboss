@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import styled from 'styled-components'
-
+import SubscriptionForm from './SubscriptionForm';
 class BusinessResourceLink extends Component {
   constructor(props) {
     super(props);
@@ -49,14 +49,12 @@ class BusinessResourceLink extends Component {
           <ModalHeader toggle={this.toggle}>Sign Up!</ModalHeader>
           <ModalBody>
 
-            <p>
-              Form Goes Here
-          </p>
+            <SubscriptionForm />
 
           </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.toggle}>Submit</Button>
-            <Button color="secondary" onClick={this.toggle}>Cancel</Button>
+            <Button color="success" onClick={this.toggle}>Submit</Button>
+            <Button color="danger" onClick={this.toggle}>Cancel</Button>
           </ModalFooter>
         </Modal>
 
