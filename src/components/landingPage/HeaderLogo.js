@@ -5,8 +5,8 @@ import styled from "styled-components";
 const HeaderLogo = () => {
   return (
     <Jumbotron className="JumbotronImg py-5">
-      <Intro className="text-center mr-5 mt-5">
-        <h1 className="text-warning">BE THE BOSS</h1>
+      <Intro>
+        <h1>BE THE BOSS</h1>
         <h3>Passionpreneurship Program</h3>
       </Intro>
     </Jumbotron>
@@ -14,6 +14,7 @@ const HeaderLogo = () => {
 }
 
 const Intro = styled.div`
+  margin-top: 9rem;
   padding: 0.2rem 2rem;
   text-align: center;
 

@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import styled from 'styled-components'
 import SubscriptionForm from './SubscriptionForm';
-class BusinessResourceLink extends Component {
+
+class SignUpBar extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -41,7 +42,7 @@ class BusinessResourceLink extends Component {
       <div>
         <Bar>
           For updates and to support our work
-      <SignUpButton className="btn font-weight-bolder" onClick={this.toggle}>Subscribe Here</SignUpButton>
+          <SignUpButton className="btn font-weight-bolder" onClick={this.toggle}>Subscribe Here</SignUpButton>
         </Bar>
 
 
@@ -63,4 +64,4 @@ class BusinessResourceLink extends Component {
   }
 }
 
-export default BusinessResourceLink;
+export default SignUpBar;

@@ -4,20 +4,20 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Sponsors from '../components/landingPage/Sponsors'
-import IntroParagraph from "../components/landingPage/IntroParagraph";
+import InternCriteria from "../components/landingPage/InternCriteria";
+import SignUpBar from "../components/landingPage/SignupBar";
 import HeaderLogo from "../components/landingPage/HeaderLogo";
-import BusinessResourceLink from "../components/landingPage/BusinessResourceLink";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div>
       <HeaderLogo />
-      <BusinessResourceLink />
+      <SignUpBar />
       <Container>
         <Row className="my-3 p-3">
           <div className="col-lg-6">
-            <IntroParagraph />
+            <InternCriteria />
           </div>
 
           <div className="col-lg-6">

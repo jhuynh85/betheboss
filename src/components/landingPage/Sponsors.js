@@ -2,14 +2,15 @@ import React from 'react'
 import { Row, Col, Card } from 'reactstrap'
 import SdWf from '../../images/San-Diego-Workforce-Partnership.png';
 import Vus from '../../images/vista-unified-school-district.jpg';
+import { CardHeader } from "./styles"
 
 const Sponsors = () => {
   return (
     <div>
       <Card>
-        <div className="card-header text-center">
+        <CardHeader className="card-header">
           <h4>A Special Thank You To Our Sponsors:</h4>
-        </div>
+        </CardHeader>
         <div className="card-body">
           <Row className="py-2 mr-2">
             <Col className="col-sm-6">
