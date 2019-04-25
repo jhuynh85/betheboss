@@ -90,10 +90,10 @@ const CodeOfConduct = () => (
 
       <h2>Attribution</h2>
 
-      <p>This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-    available at: <br /> <span><a href="https://www.contributor-covenant.org/version/1/4/code-of-conduct.html" rel="noopener noreferrer" target="_blank">www.contributor-covenant.org/version/1/4/code-of-conduct.html</a></span></p>
+      <p>This Code of Conduct is adapted from the Contributor Covenant, version 1.4,
+    available at: <br /> <a href="https://www.contributor-covenant.org/version/1/4/code-of-conduct.html" rel="noopener noreferrer" target="_blank">www.contributor-covenant.org/version/1/4/code-of-conduct.html</a></p>
 
-      <p><a href="https://www.contributor-covenant.org" rel="noopener noreferrer" target="_blank">www.contributor-covenant.org</a></p>
+      <p>Homepage: <a href="https://www.contributor-covenant.org" rel="noopener noreferrer" target="_blank">www.contributor-covenant.org</a></p>
 
       <p>For answers to common questions about this code of conduct, see:<br />
         <a href="https://www.contributor-covenant.org/faq" rel="noopener noreferrer" target="_blank">www.contributor-covenant.org/faq</a></p>
