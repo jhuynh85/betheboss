@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import styled from "styled-components"
 
 const Header = ({ logo }) => (
-  <Nav>
+  <Nav className="pl-5">
     <Link to="/">
       <Img fluid={logo} style={{ width: "7rem" }} />
     </Link>
