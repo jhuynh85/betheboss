@@ -1,33 +1,26 @@
-import {
-  Container,
-  Logo,
-  Nav,
-  StyledImg
-} from "./style"
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
-import btbLogo from "../../../images/bethebossiconTransparent.png"
+import { Link } from "gatsby"
+import Img from "gatsby-image"
+import styled from "styled-components"
 
-const Header = () => (
+const Header = ({ logo }) => (
   <Nav>
-    <Container className="pt-1">
-      <Logo>
-        <Link to="/">
-          <StyledImg className="ml-5" alt="Be The Boss" src={btbLogo} />
-        </Link>
-      </Logo>
-      <h1 className="text-white mr-5 pt-2">Welcome!</h1>
-    </Container>
+    <Link to="/">
+      <Img fluid={logo} style={{ width: "7rem" }} />
+    </Link>
   </Nav>
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
+const Nav = styled.nav`
+  align-items: center;
+  background: #183882;
+  display: flex;
+  padding: 0.6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+`
 
 export default Header
