@@ -26,6 +26,9 @@ const Intro = styled.div`
 const Jumbotron = styled.header`
   background-image: url(${Business});
   background-size: cover;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
   color: white;
   display: flex;
   justify-content: flex-end;
