@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import styled from 'styled-components'
+
 class BusinessResourceLink extends Component {
   constructor(props) {
     super(props);
@@ -16,9 +18,31 @@ class BusinessResourceLink extends Component {
     }));
   }
   render() {
+
+    const Bar = styled.div`
+      background: #3C73B3;
+      color: white;
+      font-family: sans-serif;
+      padding: 1rem 0;
+      text-align: center;
+    `
+
+    const SignUpButton = styled(Button)`
+      background: #FDC02F;
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+      font-family: sans-serif;
+      margin-left: 0.8rem;
+      text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+      &:hover, &:focus {
+        background: #EDB01F;
+      }
+    `
     return (
-      <div className="bg-primary pt-3">
-        <center><p>Receive free business resources and learn more about our incredible intern program by <span><Button className="btn-success font-weight-bolder" onClick={this.toggle}>signing up</Button></span></p></center>
+      <div>
+        <Bar>
+          For updates and to support our work
+      <SignUpButton className="btn font-weight-bolder" onClick={this.toggle}>Subscribe Here</SignUpButton>
+        </Bar>
 
 
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
