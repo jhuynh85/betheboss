@@ -1,26 +1,19 @@
 import React from "react"
-import 'bootstrap/dist/css/bootstrap.css'
 import { Container, Row } from 'reactstrap'
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Sponsors from '../components/landingPage/Sponsors'
 import IntroParagraph from "../components/landingPage/IntroParagraph";
-import BusinessResourceLink from "../components/landingPage/BusinessResourceLink";
+import SignUpBar from "../components/landingPage/SignUpBar";
 import HeaderLogo from "../components/landingPage/HeaderLogo";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div>
-      <div className="text-center">
-        <HeaderLogo />
-      </div>
-      <Row className="mb-2 bg-primary text-white p-3">
-        <div className="col-lg-12">
-          <BusinessResourceLink />
-        </div>
-      </Row>
+      <HeaderLogo />
+      <SignUpBar />
       <Container>
         <Row className="my-3 p-3">
           <div className="col-lg-6">
