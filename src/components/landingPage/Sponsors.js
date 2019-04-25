@@ -3,6 +3,7 @@ import { Row, Col, Card } from 'reactstrap'
 import SdWf from '../../images/San-Diego-Workforce-Partnership.png';
 import Vus from '../../images/vista-unified-school-district.jpg';
 import { CardHeader } from "./styles"
+import Ideas from '../../images/be-the-boss-ideas.jpg'
 
 const Sponsors = () => {
   return (
@@ -23,6 +24,9 @@ const Sponsors = () => {
         </div>
         <div className="card-footer"></div>
       </Card>
+      <div className="mt-5 text-center">
+        <img src={Ideas} alt="ideas" width="100%" height="100%" />
+      </div>
     </div>
   )
 }

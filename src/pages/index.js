@@ -16,20 +16,17 @@ const IndexPage = () => (
       <HeaderLogo />
       <SignUpBar />
       <Container>
-      <Row className="text-center mt-4">
-      <div className="col-lg-12">
-      <h3>Our Be the Boss Internship Program</h3>
-      <hr/>
-      </div>
-      </Row>
-        <Row className="my-3 p-3">
-        <div className="col-lg-4">
+        <Row className="mt-4">
+          <div className="col-lg-12">
             <AboutUs />
-          </div>  
-        <div className="col-lg-4">
+            <hr />
+          </div>
+        </Row>
+        <Row className="my-3 p-3">
+          <div className="col-lg-6">
             <InternCriteria />
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-6">
             <Sponsors />
           </div>
         </Row>

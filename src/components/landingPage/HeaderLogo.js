@@ -7,7 +7,8 @@ const HeaderLogo = () => {
     <Jumbotron className="JumbotronImg py-5">
       <Intro>
         <h1>BE THE BOSS</h1>
-        <h3>Passionpreneurship Program</h3>
+        <h2>Passionpreneurship Program</h2>
+        <h3>Innovative &amp; Impactful</h3>
       </Intro>
     </Jumbotron>
   )
