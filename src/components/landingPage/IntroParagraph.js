@@ -6,7 +6,7 @@ const IntroParagraph = () => {
   return (
     <Card>
       <div className="card-header text-center">
-        <h5>About Us:</h5>
+        <h4>About Us:</h4>
       </div>
       <div className="card-body p-4">
         <p>Our Be The Boss Passionpreneurship Program transforms youth and young adults (ages 16-24) into confident and successful  entrepreneurs. </p>
