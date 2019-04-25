@@ -5,7 +5,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Sponsors from '../components/landingPage/Sponsors'
 import InternCriteria from "../components/landingPage/InternCriteria";
-import SignUpBar from "../components/landingPage/SignUpBar";
+import SignUpBar from "../components/landingPage/SignupBar";
 import HeaderLogo from "../components/landingPage/HeaderLogo";
 
 const IndexPage = () => (
