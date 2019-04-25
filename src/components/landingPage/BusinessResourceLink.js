@@ -53,7 +53,7 @@ class BusinessResourceLink extends Component {
 
           </ModalBody>
           <ModalFooter>
-            <Button color="success" onClick={this.toggle}>Submit</Button>
+            <Button color="primary" onClick={this.toggle}>Submit</Button>
             <Button color="danger" onClick={this.toggle}>Cancel</Button>
           </ModalFooter>
         </Modal>
