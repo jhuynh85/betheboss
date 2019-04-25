@@ -7,6 +7,9 @@ const Sponsors = () => {
   return (
     <div>
       <Card>
+        <div className="card-header text-center">
+          <h4>A Special Thank You To Our Sponsors:</h4>
+        </div>
         <div className="card-body">
           <Row className="py-2 mr-2">
             <Col className="col-sm-6">
@@ -17,9 +20,7 @@ const Sponsors = () => {
             </Col>
           </Row>
         </div>
-        <div className="card-footer">
-          <center><h4>A Special Thank You To Our Sponsors</h4></center>
-        </div>
+        <div className="card-footer"></div>
       </Card>
     </div>
   )
