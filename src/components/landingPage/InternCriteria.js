@@ -20,8 +20,6 @@ const IntroParagraph = () => {
       </div>
 
       <div className="card-footer text-center">
-        <h4>Brought To You By:</h4>
-        <center><img src={Sdth} alt='sdth' width="80%" height="80%" /></center>
       </div>
     </Card>
   )

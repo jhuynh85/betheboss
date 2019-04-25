@@ -42,7 +42,7 @@ class SignUpBar extends Component {
       <div>
         <Bar>
         Receive free business resources and learn more about our incredible intern program by signing up.
-          <SignUpButton className="btn font-weight-bolder" onClick={this.toggle}>Support Our Work</SignUpButton>
+          <SignUpButton className="btn font-weight-bolder" onClick={this.toggle}>Support Our Work </SignUpButton>
         </Bar>
 
 
