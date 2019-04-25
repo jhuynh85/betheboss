@@ -8,7 +8,7 @@ const CodeOfConduct = () => (
   <Container>
     <div className="card p-3">
       <h1>Contributor Covenant Code of Conduct</h1>
-
+      <br />
       <h2>Our Pledge</h2>
 
       <p>In the interest of fostering an open and welcoming environment, we as
@@ -47,7 +47,9 @@ const CodeOfConduct = () => (
           </ul>
         </div>
         <div className="col-lg-6">
-          <img src={Internship} alt='internship' width="80%" height="80%" />
+          <div className="ml-2">
+            <img src={Internship} alt='internship' width="80%" height="80%" />
+          </div>
         </div>
       </div>
 
