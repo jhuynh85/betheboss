@@ -8,7 +8,7 @@ const Sponsors = () => {
   return (
     <div>
       <Card>
-        <CardHeader className="card-header">
+        <CardHeader className="card-header text-center">
           <h4>A Special Thank You To Our Sponsors:</h4>
         </CardHeader>
         <div className="card-body">

@@ -6,7 +6,7 @@ import { CardHeader } from "./styles";
 const IntroParagraph = () => {
   return (
     <Card>
-      <CardHeader className="card-header">
+      <CardHeader className="card-header text-center">
         <h4>Intern Criteria for the BE THE BOSS program:</h4>
       </CardHeader>
       <div className="card-body p-4">
