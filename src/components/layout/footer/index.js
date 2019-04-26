@@ -15,8 +15,10 @@ const Footer = ({ logo }) => (
       </InternalLink>
 
       <Link to="/">
+      <div className="mb-3">
         <Img fluid={logo} style={{ width: "9rem" }} />
-      </Link>
+        </div>
+        </Link>
     </InnerDiv>
   </Container>
 )
