@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card } from 'reactstrap';
-import Sdth from '../../images/san-diego-tech-hub.png';
 import { CardHeader } from "./styles";
 
 const IntroParagraph = () => {
