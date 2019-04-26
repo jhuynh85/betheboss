@@ -6,8 +6,10 @@ import Internship from '../images/be-the-boss-internship.jpg'
 const CodeOfConduct = () => (
 
   <Container>
-    <div className="card p-3">
-      <h1>Contributor Covenant Code of Conduct</h1>
+    <div className="card p-3 mt-5">
+      <div className="my-2">
+        <h1>Contributor Covenant Code of Conduct</h1>
+      </div>
       <hr />
       <br />
       <h2>Our Pledge</h2>
@@ -17,7 +19,7 @@ const CodeOfConduct = () => (
     our community a harassment-free experience for everyone, regardless of age, body
     size, disability, ethnicity, sex characteristics, gender identity and expression,
     level of experience, education, socio-economic status, nationality, personal
-  appearance, race, religion, or sexual identity and orientation.</p>
+  appearance, race, religion, or sexual identity and orientation.</p><br />
 
       <h2>Our Standards</h2>
 
@@ -32,7 +34,7 @@ const CodeOfConduct = () => (
             <li>Gracefully accepting constructive criticism</li>
             <li>Focusing on what is best for the community</li>
             <li>Showing empathy towards other community members</li>
-          </ul>
+          </ul><br />
 
           <p>Examples of unacceptable behavior by participants include:</p>
 
@@ -52,7 +54,7 @@ const CodeOfConduct = () => (
             <img src={Internship} alt='internship' width="80%" height="80%" />
           </div>
         </div>
-      </div>
+      </div><br />
 
       <h2>Our Responsibilities</h2>
 
@@ -64,7 +66,7 @@ const CodeOfConduct = () => (
       reject comments, commits, code, wiki edits, issues, and other contributions
       that are not aligned to this Code of Conduct, or to ban temporarily or
       permanently any contributor for other behaviors that they deem inappropriate,
-    threatening, offensive, or harmful.</p>
+    threatening, offensive, or harmful.</p><br />
 
       <h2>Scope</h2>
 
@@ -73,7 +75,7 @@ const CodeOfConduct = () => (
       representing a project or community include using an official project e-mail
       address, posting via an official social media account, or acting as an appointed
       representative at an online or offline event. Representation of a project may be
-    further defined and clarified by project maintainers.</p>
+    further defined and clarified by project maintainers.</p><br/>
 
       <h2>Enforcement</h2>
 
@@ -86,7 +88,7 @@ const CodeOfConduct = () => (
 
       <p>Project maintainers who do not follow or enforce the Code of Conduct in good
       faith may face temporary or permanent repercussions as determined by other
-    members of the project's leadership.</p>
+    members of the project's leadership.</p><br/>
 
       <h2>Attribution</h2>
 
