@@ -8,14 +8,14 @@ import {
 } from "./styles"
 
 const Footer = ({ logo }) => (
-  <Container>
+  <Container className="py-2">
     <InnerDiv>
       <InternalLink to="/code-of-conduct">
         Code of Conduct
       </InternalLink>
 
       <Link to="/">
-        <Img fluid={logo} style={{ width: "7rem" }} />
+        <Img fluid={logo} style={{ width: "9rem" }} />
       </Link>
     </InnerDiv>
   </Container>
