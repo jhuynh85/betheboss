@@ -1,13 +1,16 @@
 import React from "react"
+import { Container } from 'reactstrap'
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 import styled from "styled-components"
 
 const Header = ({ logo }) => (
-  <Nav className="pl-5 py-2">
-    <Link to="/">
-      <Img fluid={logo} style={{ width: "9rem" }} />
-    </Link>
+  <Nav>
+    <Container className="py-2">
+      <Link to="/">
+        <Img fluid={logo} style={{ width: "9rem" }} />
+      </Link>
+    </Container>
   </Nav>
 )
 
