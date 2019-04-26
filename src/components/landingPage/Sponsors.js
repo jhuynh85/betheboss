@@ -23,12 +23,16 @@ const Sponsors = () => {
           <Row className="py-2 mr-2">
             <Col className="col-sm-6 text-center">
               <center>
+              <div className="mr-2">
                 <img src={Vus} alt='vus' width="70%" height="70%" />
-              </center>
+                </div>
+                </center>
             </Col>
             <Col className="col-sm-6 text-center">
               <center>
-                <img src={SdWf} alt='sdwf' height="70%" width="100%" />
+                <div className="mt-4">
+                  <img src={SdWf} alt='sdwf' height="70%" width="100%" />
+                </div>
               </center>
             </Col>
           </Row>
