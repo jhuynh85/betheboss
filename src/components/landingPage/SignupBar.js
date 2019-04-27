@@ -51,7 +51,7 @@ class SignUpBar extends Component {
 
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Sign Up!</ModalHeader>
-          <ModalBody>
+          <ModalBody className="bg-secondary">
 
             <SubscriptionForm />
 

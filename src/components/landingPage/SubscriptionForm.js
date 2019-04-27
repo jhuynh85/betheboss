@@ -4,7 +4,7 @@ import Logo from '../../images/bethebossiconTransparent.png';
 
 const SubscriptionForm = (props) => {
   return (
-    <div>
+    <div  className="bg-secondary p-2 text-warning">
       <center><img src={Logo} alt='logo' height="50%" width="50%" /></center>
       <Form>
         <FormGroup >

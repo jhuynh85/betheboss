@@ -1,4 +1,5 @@
 import React from 'react';
+import PhotoSlider from './PhotoSlider'
 import Passion from '../../images/be-the-boss-passion.jpg';
 
 const AboutUs = () => {
@@ -9,9 +10,9 @@ const AboutUs = () => {
 
       <p>Through our six-week program, interns generate business ideas, conduct market research, write business plans, pitch to a panel of investors, and launch their very own businesses.</p>
       <br />
-<div  className="text-center">
-      <img src={Passion} alt="passion" width="60%" height="60%"/>
-    </div>
+      <div className="text-center">
+        <PhotoSlider />
+      </div>
     </div>
   );
 };
