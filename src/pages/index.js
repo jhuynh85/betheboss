@@ -7,13 +7,14 @@ import Sponsors from '../components/landingPage/Sponsors'
 import InternCriteria from "../components/landingPage/InternCriteria";
 import AboutUs from "../components/landingPage/AboutUs";
 import SignUpBar from "../components/landingPage/SignupBar";
-import HeaderLogo from "../components/landingPage/HeaderLogo";
+import PhotoSlider from '../components/landingPage/PhotoSlider';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div>
-      <HeaderLogo />
+      <PhotoSlider />
+    
       <SignUpBar />
       <Container>
         <Row className="mt-4">
