@@ -25,8 +25,8 @@ const CodeOfConduct = () => (
 
       <div className="row">
         <div className="col-lg-6">
-          <p>Examples of behavior that contributes to creating a positive environment
-    include:</p>
+          <strong><p>Examples of behavior that contributes to creating a positive environment
+    include:</p></strong>
 
           <ul>
             <li>Using welcoming and inclusive language</li>
@@ -36,7 +36,7 @@ const CodeOfConduct = () => (
             <li>Showing empathy towards other community members</li>
           </ul><br />
 
-          <p>Examples of unacceptable behavior by participants include:</p>
+          <strong><p>Examples of unacceptable behavior by participants include:</p></strong>
 
           <ul>
             <li>The use of sexualized language or imagery and unwelcome sexual attention or
