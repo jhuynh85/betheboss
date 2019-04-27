@@ -1,25 +1,31 @@
 import React from 'react';
+import Passion from '../../images/be-the-boss-passion.jpg';
+import Ideas from '../../images/be-the-boss-ideas.jpg';
+import Graduate from '../../images/be-the-boss-graduate.jpg';
 import { UncontrolledCarousel, Container } from 'reactstrap';
 
 const items = [
   {
-    src: require('../../images/be-the-boss-passion.jpg'),
-    caption: 'Be The Boss'
+    src: Passion,
+    caption: 'Passion'
   },
   {
-    src: require('../../images/be-the-boss-ideas.jpg'),
-    caption: 'Be The Boss'
+    src: Ideas,
+    caption: 'Ideas'
   },
   {
-    src: require('../../images/be-the-boss-graduate.jpg'),
-    caption: 'Be The Boss'
+    src: Graduate,
+    caption: 'Future'
   }
 ];
 
 const PhotoSlider = () => {
   return (
     <Container>
+
       <UncontrolledCarousel items={items} />
+
+
     </Container>
   )
 }
