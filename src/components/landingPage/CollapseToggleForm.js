@@ -4,9 +4,13 @@ import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
 const CollapseToggleForm = () => {
   return (
     <div>
-      <Button id="toggler" className="btn btn-block btn-danger text white">Click Here</Button>
+      <Button id="toggler" className="btn btn-block bg-primary text-warning">Receive Free Business resources and learn more about our incredible intern program by signing up.</Button>
       <UncontrolledCollapse toggler="#toggler">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeIj25U0pLgLsuud0JWSAxQs_3mkcLI0PCC0pdAmePZb-o1Xg/viewform" width="100%" height="2600px" />
+        <Card>
+          <CardBody>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeIj25U0pLgLsuud0JWSAxQs_3mkcLI0PCC0pdAmePZb-o1Xg/viewform" width="100%" height="2600px" />
+          </CardBody>
+        </Card>
       </UncontrolledCollapse>
     </div>
   )
