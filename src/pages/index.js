@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import { Container, Row } from 'reactstrap'
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -6,7 +6,6 @@ import SEO from "../components/seo"
 import Sponsors from '../components/landingPage/Sponsors'
 import InternCriteria from "../components/landingPage/InternCriteria";
 import AboutUs from "../components/landingPage/AboutUs";
-import SignUpBar from "../components/landingPage/SignupBar";
 import PhotoSlider from '../components/landingPage/PhotoSlider';
 import CollapseToggleForm from '../components/landingPage/CollapseToggleForm';
 
@@ -16,10 +15,7 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div>
       <PhotoSlider />
-      <SignUpBar />
-      <div className="py-5">
-        <CollapseToggleForm />
-      </div>
+      <CollapseToggleForm />
       <Container>
         <Row className="mt-4">
           <div className="col-lg-12">
